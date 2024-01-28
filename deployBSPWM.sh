@@ -32,7 +32,7 @@ echo Installing yay
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-cd
+cd ~/
 
 echo Yay apps
 yay -S urxvt-resize-font-git visual-studio-code-bin sct jp2a timer papirus-folders ranger ueberzug wttr tetris-cli-git tint-tetris vitetris gimp gimp-plugin-gmic
