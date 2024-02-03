@@ -5,7 +5,7 @@ sudo pacman -Syy
 sudo pacman -Su
 
 echo Nvidia
-sudo pacman -S nvidia nvidia-utils nvidia-settings cuda cuda-tools
+sudo pacman -S nvidia nvidia-utils nvidia-settings cuda cuda-tools nvtop
 
 echo AMD
 sudo pacman -S xf86-video-amdgpu
@@ -19,7 +19,7 @@ sudo pacman -S xf86-video-qxl
 echo iwd
 sudo pacman -S iwd
 
-sudo pacman -S chezmoi xorg xorg-xinit bspwm picom sxhkd dmenu rxvt-unicode tmux neovim nitrogen lxappearance gnome-themes-extra papirus-icon-theme htop btop glances nvtop neofetch duf inxi pavucontrol sxiv mpv thunar gvfs ffmpegthumbnailer tumbler file-roller gparted mtools ntfs-3g net-tools mousepad bc noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-liberation ttf-roboto-mono-nerd ttf-dejavu-nerd ttf-jetbrains-mono-nerd ttf-iosevka-nerd ttf-meslo-nerd ttf-firacode-nerd wget dmidecode xdotool glxinfo p7zip termdown mediainfo qemu yt-dlp ethtool clinfo dunst plocate polybar xclip syncthing obsidian blender darktable handbrake kdenlive sox movit mlt rtaudio lib32-sdl_image breeze inkscape audacity libreoffice flameshot zathura zathura-pdf-mupdf zathura-djvu zathura-ps zathura-cb android-file-transfer mtpfs gvfs-mtp obs-studio steam discord workrave smartmontools gsmartcontrol tesseract-data-eng tesseract-data-rus leptonica firefox
+sudo pacman -S chezmoi xorg xorg-xinit bspwm picom sxhkd dmenu rxvt-unicode tmux neovim nitrogen lxappearance gnome-themes-extra papirus-icon-theme htop btop glances neofetch duf inxi pavucontrol sxiv mpv thunar gvfs ffmpegthumbnailer tumbler file-roller gparted mtools ntfs-3g net-tools mousepad bc noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-liberation ttf-roboto-mono-nerd ttf-dejavu-nerd ttf-jetbrains-mono-nerd ttf-iosevka-nerd ttf-meslo-nerd ttf-firacode-nerd wget dmidecode xdotool glxinfo p7zip termdown mediainfo qemu yt-dlp ethtool clinfo dunst plocate polybar xclip syncthing obsidian blender darktable handbrake kdenlive sox movit mlt rtaudio lib32-sdl_image breeze inkscape audacity libreoffice flameshot zathura zathura-pdf-mupdf zathura-djvu zathura-ps zathura-cb android-file-transfer mtpfs gvfs-mtp obs-studio steam discord workrave smartmontools gsmartcontrol tesseract-data-eng tesseract-data-rus leptonica firefox
 
 echo Making bspwm
 mkdir -p "/home/v/.config/bspwm"
