@@ -8,10 +8,10 @@ echo Nvidia
 sudo pacman -S nvidia nvidia-utils nvidia-settings cuda cuda-tools nvtop
 
 echo AMD
-sudo pacman -S xf86-video-amdgpu
+sudo pacman -S xf86-video-amdgpu radeontop
 
 echo Mesa
-sudo pacman -S mesa
+sudo pacman -S mesa radeontop
 
 echo VM
 sudo pacman -S xf86-video-qxl
