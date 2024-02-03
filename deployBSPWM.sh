@@ -43,4 +43,9 @@ chezmoi apply -v
 
 sudo mv ~/.config/other/picom.conf /etc/xdg/
 
+echo Polybar
+cd .config/polybar/modules/
+chmod +x pulseaudio-mic.sh
+chmod +x pipewire-mic.sh
+
 #gimp-plugin-resynthesizer shutter-encoder --noconfirm 
