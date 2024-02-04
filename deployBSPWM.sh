@@ -48,4 +48,6 @@ cd "/home/v/.config/polybar/modules/"
 chmod +x pulseaudio-mic.sh
 chmod +x pipewire-mic.sh
 
+mkdir -p "/home/v/qemu"
+
 #gimp-plugin-resynthesizer shutter-encoder --noconfirm 
