@@ -43,7 +43,7 @@ chezmoi apply -v
 
 sudo mv ~/.config/other/picom.conf /etc/xdg/
 
-echo Polybar Mic Modules
+echo Polybar Mic Module
 cd "/home/v/.config/polybar/modules/"
 chmod +x pipewire-mic.sh
 
