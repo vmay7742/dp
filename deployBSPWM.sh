@@ -45,7 +45,6 @@ sudo mv ~/.config/other/picom.conf /etc/xdg/
 
 echo Polybar Mic Modules
 cd "/home/v/.config/polybar/modules/"
-chmod +x pulseaudio-mic.sh
 chmod +x pipewire-mic.sh
 
 mkdir -p "/home/v/qemu"
