@@ -38,7 +38,7 @@ makepkg -si
 cd ~/
 
 echo Yay apps
-yay -S urxvt-resize-font-git visual-studio-code-bin sct jp2a timer papirus-folders ranger ueberzug wttr tetris-cli-git tint-tetris vitetris gimp gimp-plugin-gmic
+yay -Sy urxvt-resize-font-git visual-studio-code-bin sct jp2a timer papirus-folders ranger ueberzug wttr tetris-cli-git tint-tetris vitetris gimp gimp-plugin-gmic
 
 echo chezmoi
 chezmoi init https://github.com/vmay7742/df
