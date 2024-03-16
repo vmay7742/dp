@@ -53,4 +53,4 @@ cd ~/
 
 mkdir -p "/home/v/qemu"
 
-#gimp-plugin-resynthesizer shutter-encoder --noconfirm 
+#gimp-plugin-resynthesizer --noconfirm 
